@@ -1,0 +1,22 @@
+<div class="container mt-4">
+    <div class="row text-center">
+        <div id="primary" class="col-12">
+            <img src="assets/images/groupDog.jpg" alt="groupe de chien" class="img-fluid mb-3">
+            <strong>Doggy l'application qui a du chien !</strong>
+            <h3>Bienvenue sur Doggy !</h3>
+            <p>
+                L'application qui vous permet de consulter une liste de chiens situés dans différents endroits, et de
+                rajouter votre propre chien à cette liste.
+            </p>
+        </div>
+    </div>
+    <div class="row text-center mt-4">
+        <div class="col-12">
+            <h3>Voici une image de chien aléatoire pour te faire les dents</h3>
+            <img [src]="imgDog" alt="chien aléatoire" class="img-fluid mb-3">
+            <div>
+                <button class="btn btn-primary" (click)="RandomImage()">Random</button>
+            </div>
+        </div>
+    </div>
+</div>
