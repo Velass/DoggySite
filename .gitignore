@@ -1,0 +1,53 @@
+# Ignorer les fichiers générés lors de la compilation
+Back/target/
+Back/*.jar
+Back/*.war
+
+# Ignorer les fichiers de logs
+Back/*.log
+
+# Ignorer les fichiers de configuration spécifiques à l'IDE
+Back/.classpath
+Back/.project
+Back/.settings/
+
+# Ignorer les fichiers temporaires de build
+Back/.mvn/
+Back/.idea/
+Back/.vscode/
+Back/*.iml
+
+# Ignorer les fichiers spécifiques au système
+Back/.DS_Store
+Back/Thumbs.db
+Back/*~
+
+
+
+# Ignorer le dossier des dépendances Node.js
+Front/node_modules/
+
+# Ignorer les fichiers de build Angular
+Front/dist/
+Front/build/
+
+# Ignorer les logs et les fichiers de débogage
+Front/npm-debug.log
+Front/yarn-error.log
+Front/yarn-debug.log
+
+# Ignorer les fichiers de configuration spécifiques à l'IDE
+Front/.idea/
+Front/.vscode/
+Front/*.suo
+Front/*.ntvs*
+Front/*.njsproj
+Front/*.sln
+
+# Ignorer les fichiers temporaires générés par TypeScript
+Front/*.tsbuildinfo
+
+# Ignorer les fichiers de cache Angular
+Front/.angular/cache/
+Back/src/main/resources/application.properties
+Back/src/main/resources/config.properties
